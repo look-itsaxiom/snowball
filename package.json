@@ -13,7 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://Axiom-Axiom.github.io/snowball",
@@ -46,7 +46,12 @@
   },
   "devDependencies": {
     "eslint": "^8.10.0",
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^6.3.0",
     "prettier": "^2.5.1"
+  },
+  "overrides": {
+    "nth-check": "^2.1.1",
+    "postcss": "^8.4.31",
+    "svgo": "^2.8.0"
   }
 }
